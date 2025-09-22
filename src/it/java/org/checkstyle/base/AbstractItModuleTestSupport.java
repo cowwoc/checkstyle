@@ -41,15 +41,15 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.regex.Pattern;
 
-import com.puppycrawl.tools.checkstyle.AbstractPathTestSupport;
+import com.puppycrawl.tools.checkstyle.test.AbstractPathTestSupport;
 import com.puppycrawl.tools.checkstyle.Checker;
 import com.puppycrawl.tools.checkstyle.DefaultConfiguration;
 import com.puppycrawl.tools.checkstyle.TreeWalker;
 import com.puppycrawl.tools.checkstyle.api.AbstractViolationReporter;
 import com.puppycrawl.tools.checkstyle.api.CheckstyleException;
 import com.puppycrawl.tools.checkstyle.api.Configuration;
-import com.puppycrawl.tools.checkstyle.bdd.InlineConfigParser;
-import com.puppycrawl.tools.checkstyle.bdd.TestInputViolation;
+import com.puppycrawl.tools.checkstyle.test.bdd.InlineConfigParser;
+import com.puppycrawl.tools.checkstyle.test.bdd.TestInputViolation;
 import com.puppycrawl.tools.checkstyle.internal.utils.BriefUtLogger;
 import com.puppycrawl.tools.checkstyle.utils.CommonUtil;
 

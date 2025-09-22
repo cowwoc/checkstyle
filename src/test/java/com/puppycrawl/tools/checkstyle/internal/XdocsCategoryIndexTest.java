@@ -41,7 +41,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.puppycrawl.tools.checkstyle.AbstractModuleTestSupport;
+import com.puppycrawl.tools.checkstyle.test.AbstractModuleTestSupport;
 import com.puppycrawl.tools.checkstyle.internal.utils.XmlUtil;
 
 /**
